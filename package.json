@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run test",
-    "start":"node index.js",
-    "dev":"nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "lms",
@@ -16,7 +16,7 @@
     "authentication"
   ],
   "author": "KiishiJoseph",
-  "github":"https://github.com/adeoluwa/Learning-Management-System.git",
+  "github": "https://github.com/adeoluwa/Learning-Management-System.git",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -24,6 +24,8 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.1",
     "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.1.1"
   },
   "devDependencies": {
